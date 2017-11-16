@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<GridPane hgap="1" vgap="2">
+    <padding>
+        <Insets top="10" right="10" bottom="10" left="10"/>
+    </padding>
+    <children>
+        <Button text="ok"
+                GridPane.columnIndex="0"
+                GridPane.rowIndex="0"/>
+        <Button text="Cancle"
+                GridPane.columnIndex="0"
+                GridPane.rowIndex="1"/>
+    </children>
+
+
+</GridPane>
