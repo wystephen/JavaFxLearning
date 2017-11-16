@@ -7,17 +7,33 @@
 <?import javafx.scene.layout.*?>
 
 <?import javafx.geometry.Insets?>
-<GridPane hgap="1" vgap="2">
+<GridPane hgap="3" vgap="1">
     <padding>
         <Insets top="10" right="10" bottom="10" left="10"/>
     </padding>
     <children>
-        <Button text="ok"
-                GridPane.columnIndex="0"
-                GridPane.rowIndex="0"/>
-        <Button text="Cancle"
-                GridPane.columnIndex="0"
-                GridPane.rowIndex="1"/>
+        <VBox GridPane.rowIndex="0" GridPane.columnIndex="0"
+              spacing="10">
+            <children>
+                <Button text="1"/>
+                <Button text="1"/>
+                <Button text="1"/>
+                <Button text="1"/>
+            </children>
+
+
+        </VBox>
+
+        <VBox GridPane.rowIndex="0" GridPane.columnIndex="1" spacing="10">
+<children>
+                <Button text="1"/>
+                <Button text="1"/>
+                <Button text="1"/>
+                <Button text="1"/>
+            </children>
+
+        </VBox>
+
     </children>
 
 
